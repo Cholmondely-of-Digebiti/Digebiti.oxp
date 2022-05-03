@@ -1,0 +1,49 @@
+{
+	identifier = "oolite.oxp.Cholmondeley.Digebiti";
+	version = "0.1";
+	title = "Digebiti.oxp";
+	required_oolite_version = "1.80";
+	description = "Making Digebiti Digebiti!";
+	category = "Ambience";
+	author = "Cholmondeley";
+	license = "CC-BY-NC-SA 3.0";
+	"tags" = (
+		"collection"
+	);
+	"requires_oxps" = (
+		{
+			"identifier" = "oolite.oxp.Ramirez.FeudalStates";
+			"description" = " Feudal States ";
+		},
+		{
+			"identifier" = "oolite.oxp.Svengali.Library";
+			"description" = " Library ";
+		},
+		{
+			"identifier" = "oolite.oxp.Svengali.GNN";
+			"description" = "adds the galactic news network channels";
+		},
+		{
+			"identifier" = "oolite.oxp.DrNil.Commies";
+			"description" = " Communist States ";
+		},
+		{
+			"identifier" = "oolite.oxp.phkb.HomeSystem";
+			"description" = " Home System";
+		},
+		{
+			"identifier" = "oolite.oxp.Day.Diplomacy";
+			"description" = " Diplomancy ";
+		},
+		{
+			"identifier" = " ? ";
+			"description" = " ? ";
+		},
+	);
+	"optional_oxps" = (
+		{
+			"identifier" = "oolite.oxp.Norby.HUDSelector";
+			"description" = "HUD selector: swaps between HUDs";
+		},
+			);
+}

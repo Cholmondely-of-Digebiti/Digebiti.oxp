@@ -1,0 +1,10 @@
+{
+	identifier = "oolite.oxp.phkb.DigebitiSubject";
+	version = "1.0";
+	title = "Digebiti Subject";
+	required_oolite_version = "1.82";
+	description = "Makes sure the player is a subject of Digebiti";
+	category = "Miscellaneous";
+	author = "phkb";
+	license = "CC-BY-NC-SA 4.0";
+}

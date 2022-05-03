@@ -1,0 +1,52 @@
+{
+    "0 246" = {
+        description = "Tianve lies in the midst of the nebula created by its famous pulsar, and boasts the most stunning night sky in the entire sector. Visiting the Pulsar itself by an official liner is recommended, but rental vessels are available as a cheaper option, and a range of quality merchandise is available at the Pulsar Monitoring Station. Tianve is also home to the renowned Elite Combateer 'Rebecca Weston'.  (Details can be found in the Tionisla Chronicle publications - 'Status Quo' and 'Mutabilis')."; 
+        "script_actions" = (
+
+		// At the main station...
+
+            "addShipsAtPrecisely: tianve-liner-moving 4 pwm 14500 80500 28500", 
+            "addShipsAtPrecisely: tianve-small-billboard-01 1 pwm 16000 87500 29500", 
+            "addShipsAtPrecisely: tianve-small-billboard-01 1 pwm 15500 85500 29000", 
+            "addShipsAtPrecisely: tianve-small-billboard-01 1 pwm 15000 83500 28500", 
+            "addShipsAtPrecisely: tianve-small-billboard-01 1 pwm 14500 81500 28000", 
+            "addShipsAtPrecisely: tianve-liner-stationary 1 pwm 16000 82000 28000", 
+            "addShipsAtPrecisely: tianve-liner-stationary 1 pwm 16200 82000 28000", 
+            "addShipsAtPrecisely: tianve-liner-stationary 1 pwm 16400 82000 28000", 
+            "addShipsAtPrecisely: tianve-liner-stationary 1 pwm 16600 82000 28000", 
+            "addShipsAtPrecisely: tianve-liner-stationary 1 pwm 16800 82000 28000", 
+            "addShipsAtPrecisely: tianve-liner-stationary 1 pwm 17000 82000 28000", 
+
+		// At the Witchpoint Marker
+
+            "addShipsAtPrecisely: tianve-small-billboard-01 2 pwm -2500 2500 442500", 
+		"addShipsAtPrecisely: tianve-liner-moving 4 pwm -3500 3500 442500",
+
+		// Halfway between the Main Station and the Pulsar
+
+            "addShipsAtPrecisely: tianve-liner-moving 4 pwm -267000 112500 523500", 
+            "addShipsAtPrecisely: tianve-small-billboard-02 2 pwm -267000 112500 523500", 
+
+		// At the Pulsar
+
+            "addShipsAtPrecisely: tianve-liner-moving 4 pwm -528000 137500 979000", 
+            "addShipsAtPrecisely: tianve-pulsar-station 1 pwm -528000 137500 979000", 
+            "addShipsAtPrecisely: tianve-small-billboard-03 2 pwm -521500 137000 967500", 
+            "addShipsAtPrecisely: tianve-rebecca 1 pwm -528000 147500 979000", 
+            "addMoon: tianve_pulsar"
+
+        ); 
+        "sky_blur_alpha" = "0.85"; 
+        "sky_blur_cluster_chance" = "0.55"; 
+        "sky_blur_scale" = 25; 
+    }; 
+    "tianve_pulsar" = {
+        orientation = "1.0 1.0 0.0 0.0"; 
+        "polar_color_factor" = "0.2"; 
+        position = "pwm -537000 138000 995000"; 
+        radius = 500; 
+        "rotational_velocity" = 10; 
+        seed = "1 2 3 4 5 6"; 
+        texture = "tianve_pulsar.png"; 
+    }; 
+}
